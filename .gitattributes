@@ -1,3 +1,5 @@
+*.Engine.h.pch filter=lfs diff=lfs merge=lfs -text
+*.h.pch filter=lfs diff=lfs merge=lfs -text
 *.sln filter=lfs diff=lfs merge=lfs -text
 *.uproject filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
